@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform Property with hover effect</title>
+    <style>
+        .container{
+            display:flex;
+            align-items: center;
+        }
+    .a{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width:150px;
+        height:100px;
+        background-color:rgb(197, 130, 29);
+        transform:rotate(360deg);
+        transition:all 1s ease-in-out;
+    }
+    .a:hover{
+        transform: rotate(10deg);
+    }
+    .b{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width:150px;
+        height:100px;
+        background-color:rgb(197, 130, 29);
+        transform:skew(30deg);
+        transition:all 1s ease-in-out;
+    }
+  
+    .b:hover{
+        transform: rotate(10deg);
+    }
+    .c{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width:150px;
+        height:100px;
+        background-color:rgb(197, 130, 29);
+        transform:rotate(360deg);
+        transition:all 1s ease-in-out;
+    }
+    .c:hover{
+        transform: scale(2);
+    }
+    .d{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width:150px;
+        height:100px;
+        background-color:rgb(197, 130, 29);
+    }
+
+    .d:hover{
+        transform:translate(120px);
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <h1>The css transform property</h1>
+    <h2>transform:rotate(360deg):</h2>
+    <h3>we have applied transition also</h3><br>
+    <div class="container">
+     <div class="a">Hello World</div></div>
+     <h2>transform:skewY(30deg):</h2><br>
+     <div class="b">Hello World</div>
+     <h2>transform:scaleY(2):</h2><br>
+     <div class="c">Hello World</div>
+     <h2>Translate property</h2><br>
+     <div class="d">hello</div>
+</body>
+</html>
+
+
+
+
+
